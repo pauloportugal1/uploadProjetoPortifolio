@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:
+    ital,wght@0,400;0,700;0,800;1,400;1,800&display=swap" arel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+
+
+    <title>João Lemon - UX/UI Designer</title>
+</head>
+
+<body>
+    <!--preloader da página-->
+    <div class="cl-preloader">
+        <div class="cl-inner-preloader">
+            <img src="images/lemon-loader.svg" class="cl-mar-bottom-15">
+            <p class="cl-text-light cl-mar-top-15">Aguarde um pouquinho … Estou preparando a limonada</p>
+
+        </div>
+    </div>
+
+
+
+    <!-- Modal -->
+    <div class="cl-overlay cl-toggle-modal"></div>
+
+    <div class="cl-modal cl-bg-black">
+
+
+        <div class="cl-modal-header">
+            <h1 class="cl-title cl-text-green">Solicite seu orçamento</h1>
+            <button class="cl-close-modal cl-toggle-modal">
+                X
+            </button>
+        </div>
+
+
+        <div class="cl-modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="cl-text-light">Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s</p>
+                </div>
+            </div>
+            <div class="row cl-mar-top-15">
+                <form class="cl-form col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <label for="Name" class="cl-text-light">Name</label>
+                            <input type="text" name="Name" id="cl-name" class="cl-field" />
+
+                            <label for="Email" class="cl-text-light">Email</label>
+                            <input type="email" name="Email" id="cl-email" class="cl-field" />
+                        </div>
+
+
+                        <div class="col-sm-12 col-md-6">
+
+                            <label for="Phone" class="cl-text-light">Telefone</label>
+                            <input type="text" name="Phone" id="cl-phone" class="cl-field" />
+
+                            <label for="Site" class="cl-text-light">Site</label>
+                            <input type="text" name="Site" id="cl-site" class="cl-field" />
+                        </div>
+                    </div>
+
+                    <label for="Description" class="cl-text-light">Descreva abaixo o projeto:</label>
+                    <textarea id="cl-message" rows="8" class="cl-textarea"></textarea>
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="cl-modal-footer">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 offset-3 cl-mar-top-15">
+                    <button class="cl-btn-block cl-btn-medium cl-btn-green">Enviar</button>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <!--header e links navbar-->
+    <header class="cl-topbar">
+        <div class="cl-logo">
+            <img src="images/logo.svg" alt="Logo João Lemon UX/UI Desiner">
+        </div>
+        <nav class="cl-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Sobre</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--caixa e botão de contato toggle-->
+    <div class="cl-contact-box cl-bg-black cl-text-light">
+        <div class="cl-contact-inner">
+
+            <h2 class="cl-title cl-text-green">Contato</h2>
+            <p>hello@joaolemon.com</p>
+            <p>+55 (00) 9 9999-3233</p>
+
+            <div class="cl-social-links">
+
+                <a href="#" class=" cl-social">
+                    <img src="images/icon-instagram.svg" alt="Instagram" />
+                </a>
+
+                <a href="#" class="cl-social">
+                    <img src="images/icon-twitter.svg" alt="Twitter" />
+                </a>
+
+                <a href="#" class=" cl-social">
+                    <img src="images/icon-dribbble.svg" alt="Instagram" />
+                </a>
+
+            </div>
+        </div>
+
+        <div class="cl-corner"></div>
+    </div>
+
+    <button class="cl-btn-contact"></button>
+
+
+
+    <!--fundo padrão da página e conteúdo interno-->
+    <div class="cl-page-wrapper">
+        <section class="cl-first-section cl-full-height" id="cl-home-image">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 offset-md-2 cl-display-text">
+                        <h1 class="cl-title cl-title-xlarge cl-text-green">
+                            Olá!
+                        </h1>
+                        <p class="cl-text-light">
+                            Meu nome é <span class="cl-text-green">João Lemon</span>, sou designer de <span
+                                class="cl-text-green">UX e UI</span>. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.
+
+                        </p>
+                        <button class="cl-btn cl-btn-medium cl-btn-green cl-mar-top-15 cl-toggle-modal">solicite um
+                            orçamento</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cl-scroll-down cl-bg-green">
+                <div class="cl-arrow-down" alt="Deslize a página">
+                    <img src="images/arrow-down.svg">
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="cl-full-height" id="cl-home-portfolio">
+            <div class="container-fluid cl-no-padding">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="cl-side-navigator">
+                            <div class="cl-counter">
+                                <span class="cl-text-dark">0</span><span class="cl-text-green">1</span>
+                            </div>
+                            <nav class="cl-project-selection">
+                                <a href="#" class="cl-selected-link"></a>
+                                <a href="#" class="cl-selected-link"></a>
+                                <a href="#" class="cl-selected-link"></a>
+                                <a href="#" class="cl-selected-link"></a>
+                                <a href="#" class="cl-selected-link"></a>
+
+                            </nav>
+                            <div class="cl-next-selection cl-no-radius-left">
+                                <div class="cl-inner-next">
+                                    <button class="cl-item-prev">
+                                        <img src="images/seta-left-navigator.svg">
+                                    </button>
+                                    <div class="cl-inner-counter">
+                                        <div class="cl-inner-numbers">
+                                            <p><span class="cl-current-slide"></span>/<span class="cl-slides-number"></span></p>
+                                        </div>
+                                    </div>
+                                    <button class="cl-item-next">
+                                        <img src="images/seta-right-navigator.svg">
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+           
+                    <div class="col-sm-10">
+                        <div class="cl-slider-container cl-full-height">
+                            <ul class="cl-slider-list cl-full-height">
+                                <li class="cl-slider-item">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="cl-portfolio-item-info cl-text-light">
+                                                <h1 class="cl-title cl-title-large">Startup Rocketz Website</h1>
+                                                <p class="cl-mar-bottom-30">UX, UI e WordPress para aceleradora de startups.</p>
+                                                <button class="cl-btn cl-btn-green cl-btn-large">ver projeto</button>
+                                            </div>
+                                        </div>
+                                            <div class="col-sm-6">
+                                                <div class="cl-portfolio-item-thumb">
+                                                    <img src="images/thumb-1.jpg" alt="Startup Rocketz" title="Startup Rocketz">
+                                                </div>
+                                            </div>
+                                    </div>
+                                </li>
+                                <li class="cl-slider-item">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="cl-portfolio-item-info cl-text-light">
+                                                <h1 class="cl-title cl-title-large">Manage It! Aplicativo Mobile</h1>
+                                                <p class="cl-mar-bottom-30">UX, UI e Protipação para aplicativo mobile.</p>
+                                                <button class="cl-btn cl-btn-green cl-btn-large">ver projeto</button>
+                                            </div>
+                                        </div>
+                                            <div class="col-sm-6">
+                                                <div class="cl-portfolio-item-thumb">
+                                                    <img src="images/thumb-2.jpg" alt="Manage It" title="Manage It">
+                                                </div>
+                                            </div>
+                                    </div>
+                                </li>
+                                <li class="cl-slider-item">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="cl-portfolio-item-info cl-text-light">
+                                                <h1 class="cl-title cl-title-large">Conteúdo é Rei! Website para agência</h1>
+                                                <p class="cl-mar-bottom-30">Website para agência de conteúdo digital.</p>
+                                                <button class="cl-btn cl-btn-green cl-btn-large">ver projeto</button>
+                                            </div>
+                                        </div>
+                                            <div class="col-sm-6">
+                                                <div class="cl-portfolio-item-thumb">
+                                                    <img src="images/thumb-3.jpg" alt=" Website para agência" title=" Website para agência">
+                                                </div>
+                                            </div>
+                                    </div>
+                                </li>
+                                <li class="cl-slider-item">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="cl-portfolio-item-info cl-text-light">
+                                                <h1 class="cl-title cl-title-large">Vinyassa! 
+                                                    Aplicativo Mobile</h1>
+                                                <p class="cl-mar-bottom-30">UX, UI e Protipação para aplicativo mobile.</p>
+                                                <button class="cl-btn cl-btn-green cl-btn-large">ver projeto</button>
+                                            </div>
+                                        </div>
+                                            <div class="col-sm-6">
+                                                <div class="cl-portfolio-item-thumb">
+                                                    <img src="images/thumb-4.jpg" alt="Vinyassa" title="Vinyassa">
+                                                </div>
+                                            </div>
+                                    </div>
+                                </li>
+                                <li class="cl-slider-item">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <div class="cl-portfolio-item-info cl-text-light">
+                                                <h1 class="cl-title cl-title-large">Controle Total. 
+                                                    Web App</h1>
+                                                <p class="cl-mar-bottom-30">UX, UI e Protipação para aplicativo web.</p>
+                                                <button class="cl-btn cl-btn-green cl-btn-large">ver projeto</button>
+                                            </div>
+                                        </div>
+                                            <div class="col-sm-6">
+                                                <div class="cl-portfolio-item-thumb">
+                                                    <img src="images/thumb-5.jpg" alt="Controle Total" title="Controle Total">
+                                                </div>
+                                            </div>
+                                    </div>
+                                </li>
+                                
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
