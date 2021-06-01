@@ -1,3 +1,2 @@
-# uploadProjetoPortifolio
-Projeto pessoal utilizando HTML, CSS e JS.
-O site segue um modelo de sites portifolio, com um personagem fictício de modelo (João Lemon). 
+
+O site segue um modelo simples de sites portifolio, tendo como exemplo o personagem fictício João Lemon.
